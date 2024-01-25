@@ -22,3 +22,6 @@ while not state.is_terminal():
   print("Selected action: {}\n".format(game.action_to_string(state.current_player(), action)))
 
 print("Returns: {}".format(state.returns()))
+import os
+#print arch
+print(os.uname())
